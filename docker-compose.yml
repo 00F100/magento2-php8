@@ -8,9 +8,8 @@ services:
         - PHP_MEMORY_LIMIT=-1
       volumes:
         - ${PWD}:/var/www/html
-        - ${PWD}/.composer:/var/www/.composer
-        - ${PWD}/apache2/magento.docker.conf:/etc/apache2/sites-available/000-default.conf
         - ${PWD}/php/php.ini:/usr/local/etc/php/php.ini
+        - ${PWD}/.composer:/var/www/.composer
       networks:
         - locanet
       links:
@@ -41,7 +40,6 @@ services:
         - COMPOSER_MEMORY_LIMIT=-1
       volumes:
         - ${PWD}/magento2-ce:/var/www/html
-        - ${PWD}/.composer:/var/www/.composer
         - ${PWD}/apache2/magento.docker.conf:/etc/apache2/sites-available/000-default.conf
         - ${PWD}/php/php.ini:/usr/local/etc/php/php.ini
       ports:

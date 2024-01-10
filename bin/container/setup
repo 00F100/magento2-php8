@@ -22,3 +22,11 @@ bin/magento setup:install \
 
 bin/magento module:disable Magento_AdminAdobeImsTwoFactorAuth
 bin/magento module:disable Magento_TwoFactorAuth
+bin/magento sampledata:deploy
+bin/magento cache:flush
+bin/magento cache:clean
+bin/magento setup:upgrade
+bin/magento setup:di:compile
+bin/magento indexer:reindex
+bin/magento setup:static-content:deploy -f
+composer dump-autoload
