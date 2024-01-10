@@ -12,9 +12,9 @@ Este repositório contém um projeto Magento 2 configurado para ser executado em
 
 Antes de começar, certifique-se de ter instalado:
 
-- Ubuntu (versão recomendada: XX.XX)
-- Docker (versão mínima requerida: X.X)
-- Docker Compose (versão mínima requerida: X.X)
+- Ubuntu (versão recomendada: 20.04.1)
+- Docker (versão mínima requerida: 24.0.7)
+- Plugin Docker Compose, para Docker
 
 ## Instalar uma nova cópia do Magento2
 
