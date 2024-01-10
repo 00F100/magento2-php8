@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker compose down
+docker volume rm magento-2_db-data

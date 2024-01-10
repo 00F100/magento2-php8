@@ -1,0 +1,13 @@
+.composer/*
+!.composer/.empty
+magento2-ce/generated
+magento2-ce/var/cache
+magento2-ce/var/composer_home
+magento2-ce/var/log
+magento2-ce/var/page_cache
+magento2-ce/var/session
+magento2-ce/var/report
+magento2-ce/var/tmp
+magento2-ce/var/view_preprocessed
+magento2-ce/vendor
+magento2-ce/app/etc/env.php
