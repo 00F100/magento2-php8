@@ -7,10 +7,6 @@ Este repositório contém um projeto Magento 2 configurado para ser executado em
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação](#instalação)
 - [Uso Básico](#uso-básico)
-- [Sample Data](#sample-data)
-- [Troubleshooting](#troubleshooting)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Pré-requisitos
 
